@@ -1,0 +1,29 @@
+a{
+ text-decoration-line: none;
+ font-size: 1.17em;
+  font-weight: bold;
+  color: black;
+  text-decoration-line: none;
+    color: inherit;
+}
+body {
+  margin: 0;
+  font-family: Nunito, sans-serif;
+}
+
+.header-container{
+
+   box-shadow: 0 4px 4px 0.2px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+ 
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+     max-width: 1350px;
+  margin-inline: auto;
+  margin-top: 16px;
+}
